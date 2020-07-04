@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05rem;
+  color: #616161;
+}
+
+body {
+  padding: 3rem 0;
+}
+
+header,
+main {
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 50rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+header p {
+  margin-bottom: -0.5em;
+}
+
+main .screen-shot {
+  margin-top: 1rem;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+main .screen-shot:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+section {
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin: 0.5rem 0;
+}
